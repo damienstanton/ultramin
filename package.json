@@ -1,0 +1,22 @@
+{
+    "name": "ultramin",
+    "displayName": "ultramin",
+    "description": "ultramin gets out of your way; a minimalist light theme based on Apex by TJ Holowaychuk",
+    "version": "1.0.0",
+    "publisher": "damienstanton",
+    "engines": {
+        "vscode": "^1.17.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Ultramin",
+                "uiTheme": "vs",
+                "path": "./themes/ultramin-color-theme.json"
+            }
+        ]
+    }
+}
